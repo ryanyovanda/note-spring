@@ -1,4 +1,10 @@
 package com.backend.demonotesapp.usecase;
 
-public class GetAllNoteUsecase {
+
+import com.backend.demonotesapp.dto.NoteResponseDTO;
+
+import java.util.List;
+
+public interface GetAllNoteUsecase {
+    List<NoteResponseDTO> execute();
 }

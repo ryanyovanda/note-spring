@@ -1,4 +1,4 @@
-package com.backend.demonotesapp;
+package com.backend.demonotesapp.repository;
 
 import com.backend.demonotesapp.domain.entity.Note;
 import org.springframework.data.jpa.repository.JpaRepository;
